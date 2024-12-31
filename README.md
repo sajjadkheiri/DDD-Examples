@@ -39,3 +39,22 @@
 
 ### What is the Ubiquitous Language(UL)
 
+### Inconsistency
+
+### Bounded context
+
+### What is the difference between bounded context and subdomain
+
+> [!IMPORTANT]
+> Obviously, We discover the Subdomains and design the Bounded context
+
+### Boundaries
+
+**Tips :**
+
+1. A bounded context has to be related to a team.
+2. Each team could have some bounded contexts.
+3. Every bounded context has separated resources like database
+4. Each bounded context must have its Ubiquitous language
+
+![Bounded context](./Resources/Boundaries.png)
