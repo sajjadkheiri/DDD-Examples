@@ -90,9 +90,22 @@
 ![Context map](Resources/ContextMap.png)
 
 
-### Business Logic Implementation Patterns
+### Tactical Design
 
-1. Transaction script
-2. Active record
-3. Domain model
-4. Event-sourced domain model
+1. Business Logic Patterns
+    
+    - Transaction script
+    - Active record
+    - Domain Model
+
+2. Architectural Patterns
+
+    - Layered Architecture
+    - Ports & Adapters
+    - Command-Query Responsibility Segregation (CQRS)
+
+3. Integration of Bounded Contexts
+
+    - Partnership and Shared Kernel
+    - Anticorruption Layer
+    - Open-Host Service
