@@ -1,10 +1,10 @@
 # DDD-Examples
 
-### What is Domain
+## What is Domain
 
-### What is Subdomain
+## What is Subdomain
 
-#### what are Subdomain types
+### what are Subdomain types
 
 - Core subdomain
 - Generic subdomain
@@ -35,20 +35,20 @@
     - Pros : Reusability, reduced complexity, best practices.
     - Cons : Dependency risks, lack of differentiation, customization limits.
 
-### Who is Domain expert
+## Who is Domain expert
 
-### What is the Ubiquitous Language(UL)
+## What is the Ubiquitous Language(UL)
 
-### Inconsistency
+## Inconsistency
 
-### Bounded context
+## Bounded context
 
-### What is the difference between bounded context and subdomain
+## What is the difference between bounded context and subdomain
 
 > [!IMPORTANT]
 > Obviously, We discover the Subdomains and design the Bounded context
 
-### Boundaries
+## Boundaries
 
 **Tips :**
 
@@ -59,7 +59,7 @@
 
     ![Bounded context](./Resources/Boundaries.png)
 
-#### Bounded context mapping ([resource](https://www.oreilly.com/library/view/what-is-domain-driven/9781492057802/ch04.html))
+### Bounded context mapping ([resource](https://www.oreilly.com/library/view/what-is-domain-driven/9781492057802/ch04.html))
 
 
 1. Cooperation
@@ -90,22 +90,54 @@
 ![Context map](Resources/ContextMap.png)
 
 
-### Tactical Design
+## Tactical Design
 
-1. Business Logic Patterns
+### 1. Business Logic Patterns
     
-    - Transaction script
-    - Active record
-    - Domain Model
+- #### Transaction script
+- #### Active record
+- #### Domain Model
 
-2. Architectural Patterns
+    - #### Value object : It's Immutable.
+    
+    > [!TIP]
+    > If a value of object has changed, we must initial a new instance.
+
+    ```c#
+    public class Color
+    {
+        public int Red {get;set;}
+        public int Green {get;set;}
+        public int Blue {get;set;}
+
+        public Color (int red,int green,int blue)
+        {
+            Red = red;
+            Green = green;
+            Blue = blue;
+        }
+
+        public Color Mix (Color color)
+        {
+            return new Color(Red + color.red,
+                             Green + color.green,
+                             Blue++ color.blue);
+        }
+    }
+    ```
+
+    - #### Entity :
+    - #### Aggregate :
+
+
+### 2. Architectural Patterns
 
     - Layered Architecture
     - Ports & Adapters
     - Command-Query Responsibility Segregation (CQRS)
 
-3. Integration of Bounded Contexts
+### 3. Integration of Bounded Contexts
 
-    - Partnership and Shared Kernel
-    - Anticorruption Layer
-    - Open-Host Service
+- Partnership and Shared Kernel
+- Anticorruption Layer
+- Open-Host Service
