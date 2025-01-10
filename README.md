@@ -92,13 +92,38 @@
 
 ## Tactical Design
 
-### 1. Business Logic Patterns
+1. Business Logic Patterns
     
-- #### Transaction script
-- #### Active record
-- #### Domain Model
+    - Transaction script
+    - Active record
+    - Domain Model
 
-    - #### Value object : It's Immutable.
+2. Architectural Patterns
+
+    - Layered Architecture
+    - Ports & Adapters
+    - Command-Query Responsibility Segregation (CQRS)
+
+3. Integration of Bounded Contexts
+
+    - Partnership and Shared Kernel
+    - Anticorruption Layer
+    - Open-Host Service
+
+
+## Business Logic Patterns
+
+### Transaction script
+
+### Active record
+
+### Domain Model
+
+#### How we should manage complexity
+
+#### Building Blocks
+
+1. **Value object :** It's Immutable.
     
     > [!TIP]
     > If a value of object has changed, we must initial a new instance.
@@ -121,23 +146,25 @@
         {
             return new Color(Red + color.red,
                              Green + color.green,
-                             Blue++ color.blue);
+                             Blue + color.blue);
         }
     }
     ```
 
-    - #### Entity :
-    - #### Aggregate :
+2. **Aggregate :**
 
+3. **Domain events :**
 
-### 2. Architectural Patterns
+4. **Domain sevice :**
 
-    - Layered Architecture
-    - Ports & Adapters
-    - Command-Query Responsibility Segregation (CQRS)
+## Architectural Patterns
 
-### 3. Integration of Bounded Contexts
+### Layered Architecture
+### Ports & Adapters
+### Command-Query Responsibility Segregation (CQRS)
 
-- Partnership and Shared Kernel
-- Anticorruption Layer
-- Open-Host Service
+## Integration of Bounded Contexts
+
+### Partnership and Shared Kernel
+### Anticorruption Layer
+### Open-Host Service
