@@ -125,8 +125,8 @@
 
 1. **Value object :** It's Immutable.
     
-    > [!TIP]
-    > If a value of object has changed, we must initial a new instance.
+> [!TIP]
+> If a value of object has changed, we must initial a new instance.
 
     ```c#
     public class Color
@@ -157,11 +157,34 @@
 
 4. **Domain sevice :**
 
+#### Save and restore the state of Aggregation
+
+1. State base
+
+In this model, we have just the last state or current statement
+
+2. Event base
+
+According to the model, we have some beneficial achievements that we can use like 
+
++ Temporal query
++ Projection
++ Snapshot
+
+
 ## Architectural Patterns
 
 ### Layered Architecture
+
+#### Presentation
+#### Application service
+#### Business logic
+#### Data access
+
 ### Ports & Adapters
+
 ### Command-Query Responsibility Segregation (CQRS)
+
 
 ## Integration of Bounded Contexts
 
