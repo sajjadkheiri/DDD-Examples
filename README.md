@@ -191,3 +191,18 @@ According to the model, we have some beneficial achievements that we can use lik
 ### Partnership and Shared Kernel
 ### Anticorruption Layer
 ### Open-Host Service
+
+## Starting Modelling Process
+
+This procedure consists of 8 steps
+
+![Starting Modelling Process](./Resources/StarterModellingProcess.png)
+
+### 1. Align (Understand)
+### 2. Discover
+### 3. Decompose
+### 4. Strategy
+### 5. Connect
+### 6. Organize
+### 7. Define
+### 8. Code
