@@ -192,7 +192,7 @@ According to the model, we have some beneficial achievements that we can use lik
 ### Anticorruption Layer
 ### Open-Host Service
 
-## Starting Modelling Process
+## Starting Modelling Process ([resource](https://ddd-crew.github.io/ddd-starter-modelling-process/))
 
 This procedure consists of 8 steps
 
@@ -206,3 +206,5 @@ This procedure consists of 8 steps
 ### 6. Organize
 ### 7. Define
 ### 8. Code
+
+## Event Storming
