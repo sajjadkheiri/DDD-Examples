@@ -208,3 +208,27 @@ This procedure consists of 8 steps
 ### 8. Code
 
 ## Event Storming
+
+### Phase 1 : Kick-off
+
+### Phase 2 : chaotic exploration
+
+### Phase 3 : Enforce the timeline (Sorting Events)
+1. Pivotal Event
+2. Swimlean
+3. Temporal Milestone
+4. Chapter Sorting
+
+> [!TIP]
+> Find a new misunderstanding after sorting event.Additionally, teammates talk together
+> about that more than a few minutes. It is a HOTSPOT and you should write down in a 
+> sticky note (pink). 
+
+### Phase 4 : Explicit Walk-through
+
+
+### Phase 5 : Problems & Opportunities
+
+Green sticker
+
+### Phase 6 : Pick your problem
